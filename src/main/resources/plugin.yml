@@ -1,0 +1,24 @@
+name: Demorashadow
+version: 1.0.0
+main: com.demora.demorasshadow.DemorasShadow
+author: __DEMORA__
+api-version: 1.21
+description: Теневой клинок
+
+commands:
+  demorashadow:
+    description: Main plugin command
+    usage: /demorashadow <give|reload> [player]
+    permission: demorasshadow.use
+    aliases: [dshadow, ds]
+
+permissions:
+  demorasshadow.use:
+    description: Allows using the demorashadow command
+    default: op
+  demorasshadow.give:
+    description: Allows giving shadow blade to players
+    default: op
+  demorasshadow.reload:
+    description: Allows reloading the plugin configuration
+    default: op
